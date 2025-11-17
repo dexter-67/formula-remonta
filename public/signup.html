@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <h2>Регистрация</h2>
+
+    <form id="signup-form">
+      <div class="input-group">
+        <label>Имя</label>
+        <input type="text" placeholder="Placeholder" required>
+      </div>
+      <div class="input-group">
+        <label>Почта</label>
+        <input type="email" placeholder="Placeholder" required>
+      </div>
+      <div class="input-group">
+        <label>Логин</label>
+        <input type="text" placeholder="Placeholder" required>
+      </div>
+      <div class="input-group">
+        <label>Пароль</label>
+        <input type="password" placeholder="Placeholder" required>
+      </div>
+      <div class="input-group">
+        <label>Подтвердите пароль</label>
+        <input type="password" placeholder="Placeholder" required>
+      </div>
+
+      <button type="submit" class="register-btn">Зарегистрироваться</button>
+
+      <div class="login-link">
+        Уже есть аккаунт? <a href="/login">Войти</a>
+      </div>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
